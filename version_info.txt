@@ -1,0 +1,38 @@
+# Windows executable metadata. Shows up under right-click > Properties >
+# Details on the built .exe, which lets a copy be identified without
+# launching it.
+#
+# Keep the four-part version numbers in step with APP_VERSION in
+# signal_viewer.py whenever the version changes.
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable(
+          '080904b0',
+          [
+            StringStruct('CompanyName', 'Amber Therapeutics'),
+            StringStruct('FileDescription', 'Monitoring Waveform Acceptance Check'),
+            StringStruct('FileVersion', '1.0.0.0'),
+            StringStruct('InternalName', 'MonitoringWaveformAcceptanceCheck'),
+            StringStruct('OriginalFilename', 'MonitoringWaveformAcceptanceCheck.exe'),
+            StringStruct('ProductName', 'Monitoring Waveform Acceptance Check'),
+            StringStruct('ProductVersion', '1.0.0.0')
+          ]
+        )
+      ]
+    ),
+    VarFileInfo([VarStruct('Translation', [2057, 1200])])
+  ]
+)

@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Build artifacts
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Recorded data (contains subject-identifiable information)
+data/
+results/
