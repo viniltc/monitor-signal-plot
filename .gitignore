@@ -12,3 +12,6 @@ __pycache__/
 # Recorded data (contains subject-identifiable information)
 data/
 results/
+
+# Word / Office lock files
+~$*.doc*
